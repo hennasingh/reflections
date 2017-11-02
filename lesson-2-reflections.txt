@@ -1,0 +1,10 @@
+Reflection 01
+What happens when you initialize a repository? Why do you need to do it?
+when any repository gets initialized with with git init, a hidden metadeta .git file is created
+which helps in keeping the track of all changes done to the files in the directory.
+
+Reflection 02
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+staging area is a part of git and it keeps the files before a commit is done on it.Files can be added 
+to staging area by using git add command and similarly git status can be used to check the status of the files.
