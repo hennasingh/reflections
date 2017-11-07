@@ -20,3 +20,10 @@ Reflection 04
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 when we are experimenting with new features, we can make use of branches or if we want a different language or design or UI of the game,
 we can add branches.
+
+Reflection 05
+How do the diagrams help you visualize the branch structure?
+Diagram helps us know if there are linear or non-linear lists of commits, if there is a non-linear commit then its likely it wont come
+under git log output, and it will be lost. The head is detached from the commit, this happens when we run the comman git checkout some-commitid, here the
+head is detached from the master pointing towards a non-linear commit, to prevent that commit to get lost we can create a new branch with 
+command git checkout -b new_branch_name equivalent to running 2 commands.
