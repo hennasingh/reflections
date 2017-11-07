@@ -27,3 +27,9 @@ Diagram helps us know if there are linear or non-linear lists of commits, if the
 under git log output, and it will be lost. The head is detached from the commit, this happens when we run the comman git checkout some-commitid, here the
 head is detached from the master pointing towards a non-linear commit, to prevent that commit to get lost we can create a new branch with 
 command git checkout -b new_branch_name equivalent to running 2 commands.
+
+Reflection 06
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The merging of two branches results in combining all the commits done in them into one master branch. The diagram helps us know separate commits
+done in two branches and if git diff command will work on them or not, the commits are all included into master as result of merge but at different time
+stamps that they are done. one can know the diff of code added by command - git show commit-id.
