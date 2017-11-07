@@ -8,3 +8,10 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 staging area is a part of git and it keeps the files before a commit is done on it.Files can be added 
 to staging area by using git add command and similarly git status can be used to check the status of the files.
+while a working directory is a store of files which have not been committed yet after the changes have been made
+while repository stores metadeta about all the history of the files since they were created.
+
+Reflection 03
+How can you use the staging area to make sure you have one commit per logical change?
+I can use git diff commands to check the editions made to the code since last commit, i can check the status of the file and check 
+differences between working directory and staging area as well.
