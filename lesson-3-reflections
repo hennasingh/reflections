@@ -8,4 +8,11 @@ Why might you want to always pull changes manually rather than having Git automa
 the manual pull gives us a choice what changes we needed to pull and what can be left specially when there is huge code in the repository and 
 sometimes there can be space crunch which may prove fatal.
 
-
+Reflection 03
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork - it is used when you want a copy of someone else's repository on your github account. you can clone it to your local machine 
+and add your code to it.
+Clone - when you want to make a copy of repository from remote to your local machine to make changes or create a copy of code on your local 
+machine.
+Branches - when you want to experiment with new features and new designs which may break the code, so you separate it from master file.
+All the three have different uses and can be used as per requirement
