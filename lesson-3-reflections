@@ -2,3 +2,10 @@ Reflection 01
 When would you want to use a remote repository rather than keeping all your work local?
 when i dont have my own laptop or when i am working on public machine or friends laptop, its better to work directly on remote
 repository rather than wait to work on local machine, changes can be easily synced later
+
+Reflection 02
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+the manual pull gives us a choice what changes we needed to pull and what can be left specially when there is huge code in the repository and 
+sometimes there can be space crunch which may prove fatal.
+
+
