@@ -16,3 +16,11 @@ Clone - when you want to make a copy of repository from remote to your local mac
 machine.
 Branches - when you want to experiment with new features and new designs which may break the code, so you separate it from master file.
 All the three have different uses and can be used as per requirement
+
+Reflection 04
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It helps keep a track of changes done to the code if there are lot of contributors, some changes are done locally and some are done remotely,
+so storing a copy of last known state of the remote becomes a reference point of code that is already synced and the new features that are
+needed to get synced at both local and remote level.
+
+
