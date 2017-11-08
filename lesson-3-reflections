@@ -34,3 +34,11 @@ Cons -
 if one of us moves somewhere else for work etc, it becomes harder to discuss and implement code
 keeping a track becomes difficult if there are lot of contributors to the code
 difficult to maintain different versions of the code, track changes and log outputs
+
+Reflection 06
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+It will depend on the requirements of the project in question. If we are finding ways to save memory or reduce threads, we may need to create
+separate branches for different optional ways or when separate contributors looking to find a better way to implement any feature, we may create 
+then or when we know the code will break but only want to test a new piece of code. The only benefit a master branch will have is its a linear way
+of updating the code, one change after the other, and its easier to maintain.
+
