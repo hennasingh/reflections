@@ -23,4 +23,14 @@ It helps keep a track of changes done to the code if there are lot of contributo
 so storing a copy of last known state of the remote becomes a reference point of code that is already synced and the new features that are
 needed to get synced at both local and remote level.
 
-
+Reflection 05
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I can collaborate with others if we are staying close to them and can meet every now and then to discuss ideas and implement them.
+Pros -
+can meet and discuss everytime and anytime
+dont have to wait for replies to changes done on the code, can discuss it and finish there and then
+dont have to make separate copies of code, will keep only the ones that worked
+Cons -
+if one of us moves somewhere else for work etc, it becomes harder to discuss and implement code
+keeping a track becomes difficult if there are lot of contributors to the code
+difficult to maintain different versions of the code, track changes and log outputs
