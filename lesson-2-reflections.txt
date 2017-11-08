@@ -33,3 +33,12 @@ What is the result of merging two branches together? Why do we represent it in t
 The merging of two branches results in combining all the commits done in them into one master branch. The diagram helps us know separate commits
 done in two branches and if git diff command will work on them or not, the commits are all included into master as result of merge but at different time
 stamps that they are done. one can know the diff of code added by command - git show commit-id.
+
+Reflection 07
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+manual merge can sometimes becomes a tedius task, you need to recall whatever changes you did to your code if lot of people made changes to it 
+while automatic merging is always better, it is a time-saver let the program figure out changes and adjust itself accordingly, but sometimes with 
+some part of code the automatic does not work the right way, it may leads to code break.
+for example, if one branch deleted a
+    function, and another branch added a call to that function, Git would merge
+    those together with no conflict and the resulting code would be broken
